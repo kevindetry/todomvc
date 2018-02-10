@@ -1,0 +1,35 @@
+{
+  "name": "todomvc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "json-server": "^0.12.1",
+    "lodash": "^4.17.5",
+    "material-ui": "^1.0.0-beta.32",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "normalizr": "^3.2.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "redux-observable": "^0.18.0",
+    "rxjs": "^5.5.6",
+    "typeface-roboto": "^0.0.54"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "preserve": "react-scripts build",
+    "serve": "json-server -s build -w db.json"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "trailingComma": "all"
+  }
+}
